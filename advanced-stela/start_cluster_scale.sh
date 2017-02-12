@@ -25,7 +25,7 @@ do
 	cd /var/stela/zookeeper-3.4.6
 	sudo bin/zkServer.sh start
 
-	for i in {1..5}
+	for i in {1..35}
         do
                ssh node${i} "/users/lexu/advanced-stela/supervisor.sh  >> /dev/null &"
         done

@@ -4,7 +4,7 @@ sudo killall java
 sudo rm -r /tmp/zookeeper/
 sudo rm -r /tmp/storm/
 sudo rm -rf /tmp/*.log
-sudo rm -rf /var/latencies/
+sudo rm -rf /var/latencies/*
 sudo rm -rf /proj/Stella/advanced-stela/*
 sudo rm -rf /proj/Stella/latency-logs/*
 #sudo rm -r /var/storm/storm_0/logs/
